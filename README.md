@@ -1,16 +1,20 @@
-# task_lqm_app_chuan
+# Hướng dẫn cài đặt và chạy ứng dụng Flutter
 
-A new Flutter project.
+## Chuẩn bị môi trường
 
-## Getting Started
+1. Cài đặt Flutter và thiết lập môi trường:
+   - Đảm bảo rằng Flutter đã được cài đặt và thiết lập đúng trên hệ thống của bạn. Nếu chưa, hãy làm theo [hướng dẫn cài đặt Flutter](https://flutter.dev/docs/get-started/install).
+   - Đảm bảo bạn đã cài đặt Android Studio (hoặc IntelliJ với plugin Flutter) hoặc VS Code với extension Flutter để phát triển ứng dụng.
 
-This project is a starting point for a Flutter application.
+## Cài đặt dependencies
 
-A few resources to get you started if this is your first Flutter project:
+1. Mở terminal hoặc command prompt và đi đến thư mục gốc của dự án Flutter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Chạy lệnh sau để cài đặt các dependencies từ `pubspec.yaml`:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   flutter pub get
+3. Chạy ứng dụng:
+  
+4.  ```bash
+    flutter run
